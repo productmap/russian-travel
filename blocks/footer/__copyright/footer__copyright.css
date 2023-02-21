@@ -1,13 +1,21 @@
 .footer__copyright {
-  font-family: 'Inter', serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   text-align: right;
   color: #FFFFFF;
+  margin: 0;
 }
 
 .footer__copyright::before {
   content: '© ';
+}
+
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    width: 100%;
+    text-align: left;
+    padding-top: 48px;
+    float: left;
+  }
 }

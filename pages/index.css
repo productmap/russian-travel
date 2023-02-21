@@ -5,12 +5,13 @@
 
 /* Блок Page */
 @import "../blocks/page/page.css";
+@import "../blocks/content/content.css";
 
 /* Блок Header */
 @import "../blocks/header/header.css";
 @import "../blocks/header/__logo/header__logo.css";
 @import "../blocks/header/__lang-link/header__lang-link.css";
-
+@import "../blocks/header/__lang-link/_active/header__lang-link_active.css";
 
 /* Блок Lead */
 @import "../blocks/lead/lead.css";
@@ -19,10 +20,32 @@
 @import "../blocks/lead/__image/lead__image.css";
 @import "../blocks/lead/__caption/lead__caption.css";
 
+/* Блок Intro */
+@import "../blocks/intro/intro.css";
+@import "../blocks/intro/__title/intro__title.css";
+@import "../blocks/intro/__text/intro__text.css";
+@import "../blocks/intro/__list/intro__list.css";
+
 /* Блок Photo-grid */
 @import "../blocks/photo-grid/photo-grid.css";
-@import "../blocks/photo-grid/__cell/photo-photo-grid__cell.css";
+@import "../blocks/photo-grid/__item/photo-grid__item.css";
 
+/* Блок Places */
+@import "../blocks/places/places.css";
+@import "../blocks/place/place.css";
+@import "../blocks/place/__title/place__title.css";
+@import "../blocks/place/__website/place__website.css";
+@import "../blocks/place/__url-heading/place__url-heading.css";
+@import "../blocks/place/__link/place__link.css";
+@import "../blocks/place/__image/place__image.css";
+@import "../blocks/place/__paragraph/place__paragraph.css";
+
+/* Cover */
+@import "../blocks/cover/cover.css";
+@import "../blocks/cover/__background/cover__background.css";
+@import "../blocks/cover/__overlay/cover__overlay.css";
+@import "../blocks/cover/__title/cover__title.css";
+@import "../blocks/cover/__subtitle/cover__subtitle.css";
 
 /* Блок Footer */
 @import "../blocks/footer/footer.css";
@@ -30,3 +53,5 @@
 @import "../blocks/footer/__link/footer__link.css";
 @import "../blocks/footer/__copyright/footer__copyright.css";
 
+/* Эффекты */
+@import "../blocks/effects/_opacity/effects_opacity.css";

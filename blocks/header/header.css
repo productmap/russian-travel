@@ -1,10 +1,22 @@
 .header {
-  padding: 28px 0;
-  display: grid;
-  height: 52px;
-  grid-template-columns: fit-content(200px) 40px 40px;
-  grid-row-gap: 2px;
-  border: 1px salmon solid;
-  /*justify-content: space-between;*/
+  box-sizing: border-box;
+  display: inline-flex;
+  padding: 28px 48px;
+  justify-content: space-between;
   align-items: center;
+  width: 100%;
+  max-width: 1184px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding: 16px;
+    height: 42px;
+  }
 }

@@ -1,0 +1,18 @@
+.places {
+  box-sizing: border-box;
+  padding: 92px 0 0 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    row-gap: 72px;
+    padding-top: 80px;
+  }
+}

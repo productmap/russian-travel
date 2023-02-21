@@ -1,0 +1,15 @@
+.footer__links {
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__links {
+    max-width: 288px;
+    flex-flow: row wrap;
+    justify-content: start;
+    row-gap: 28px;
+    width: 100%;
+  }
+}
