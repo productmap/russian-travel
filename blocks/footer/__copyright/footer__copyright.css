@@ -1,0 +1,13 @@
+.footer__copyright {
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+.footer__copyright::before {
+  content: '© ';
+}

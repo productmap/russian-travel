@@ -1,0 +1,10 @@
+.header {
+  padding: 28px 0;
+  display: grid;
+  height: 52px;
+  grid-template-columns: fit-content(200px) 40px 40px;
+  grid-row-gap: 2px;
+  border: 1px salmon solid;
+  /*justify-content: space-between;*/
+  align-items: center;
+}

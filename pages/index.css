@@ -1,0 +1,32 @@
+@import "../vendor/normalize.css";
+
+/* Шрифты */
+@import "../fonts/fonts.css";
+
+/* Блок Page */
+@import "../blocks/page/page.css";
+
+/* Блок Header */
+@import "../blocks/header/header.css";
+@import "../blocks/header/__logo/header__logo.css";
+@import "../blocks/header/__lang-link/header__lang-link.css";
+
+
+/* Блок Lead */
+@import "../blocks/lead/lead.css";
+@import "../blocks/lead/__title/lead__title.css";
+@import "../blocks/lead/__subtitle/lead__subtitle.css";
+@import "../blocks/lead/__image/lead__image.css";
+@import "../blocks/lead/__caption/lead__caption.css";
+
+/* Блок Photo-grid */
+@import "../blocks/photo-grid/photo-grid.css";
+@import "../blocks/photo-grid/__cell/photo-photo-grid__cell.css";
+
+
+/* Блок Footer */
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__links/footer__links.css";
+@import "../blocks/footer/__link/footer__link.css";
+@import "../blocks/footer/__copyright/footer__copyright.css";
+
