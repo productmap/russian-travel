@@ -10,14 +10,14 @@
 @media screen and (max-width: 1279px) {
   .place {
     gap: 48px 32px;
-    grid-template-columns: minmax(440px, max-content) minmax(456px, max-content);
-    margin: 0 48px;
+    grid-template-columns: 440px 1fr;
+    /*margin: 0 48px;*/
   }
 }
 @media screen and (max-width: 1023px) {
   .place {
-    gap: 48px 28px;
-    grid-template-columns: minmax(340px, max-content) minmax(352px, max-content);
+    gap: 48px 20px;
+    grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
     margin: 0 24px;
   }
 }
@@ -25,6 +25,5 @@
   .place {
     gap: 32px;
     grid-template-columns: minmax(288px, 720px);
-    margin: 0
   }
 }
