@@ -10,6 +10,7 @@
 /* Блок Header */
 @import "../blocks/header/header.css";
 @import "../blocks/header/__logo/header__logo.css";
+@import "../blocks/header/__lang/header__lang.css";
 @import "../blocks/header/__lang-link/header__lang-link.css";
 @import "../blocks/header/__lang-link/_active/header__lang-link_active.css";
 
@@ -42,7 +43,6 @@
 
 /* Cover */
 @import "../blocks/cover/cover.css";
-@import "../blocks/cover/__background/cover__background.css";
 @import "../blocks/cover/__overlay/cover__overlay.css";
 @import "../blocks/cover/__title/cover__title.css";
 @import "../blocks/cover/__subtitle/cover__subtitle.css";

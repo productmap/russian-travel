@@ -7,15 +7,6 @@
   height: 100%;
 }
 
-.header__lang {
-  display: inline-flex;
-  list-style: none;
-  column-gap: 18px;
-  padding: 0;
-  align-items: end;
-  height: 100%;
-}
-
 @media screen and (max-width: 320px) {
   .header__lang-link {
     font-size: 1.125rem;
