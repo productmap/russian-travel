@@ -1,9 +1,9 @@
-.effects_opacity {
+.opacity {
   opacity: 1;
   transition: 0.3s;
 }
 
-.effects_opacity:hover {
+.opacity:hover {
   opacity: 0.8;
   transition: 0.3s;
 }

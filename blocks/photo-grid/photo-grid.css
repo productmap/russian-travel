@@ -15,7 +15,6 @@
     grid-template-columns: repeat(3, 1fr);
     column-gap: 0.85rem;
     row-gap: 0.85rem;
-    padding: 5.75rem 3rem 0;
   }
 }
 

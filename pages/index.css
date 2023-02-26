@@ -54,4 +54,4 @@
 @import "../blocks/footer/__copyright/footer__copyright.css";
 
 /* Эффекты */
-@import "../blocks/effects/_opacity/effects_opacity.css";
+@import "../blocks/opacity/opacity.css";
