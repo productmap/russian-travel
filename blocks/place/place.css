@@ -27,3 +27,10 @@
     grid-template-columns: minmax(288px, 720px);
   }
 }
+
+@media screen and (max-width: 320px) {
+  .place {
+    max-width: 320px;
+    margin: 0;
+  }
+}
