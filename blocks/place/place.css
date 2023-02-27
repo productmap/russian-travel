@@ -11,14 +11,12 @@
   .place {
     gap: 48px 32px;
     grid-template-columns: 440px 1fr;
-    /*margin: 0 48px;*/
   }
 }
 @media screen and (max-width: 1023px) {
   .place {
     gap: 48px 20px;
     grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
-    margin: 0 24px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -31,6 +29,5 @@
 @media screen and (max-width: 320px) {
   .place {
     max-width: 320px;
-    margin: 0;
   }
 }
